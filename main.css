@@ -144,9 +144,12 @@ main {
   letter-spacing: 1px;
 }
 
+th {
+  padding: 7px;
+}
+
 /* Styling table */
 table,
-th,
 td {
   border-collapse: collapse;
   margin: 0;
