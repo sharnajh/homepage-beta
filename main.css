@@ -20,12 +20,6 @@ a:link,
 a:visited,
 a:active {
   text-decoration: none;
-}
-
-/* Styling links specifically in header */
-header a:link,
-a:visited,
-a:active {
   color: white;
 }
 
@@ -76,7 +70,7 @@ nav {
 /* Using calc() to make the main div's minimum height be that of the screen
 but subtracted by the combined heights of the header and footer */
 main {
-  min-height: calc(100vh - 140px);
+  min-height: calc(100vh - 120px);
 }
 
 /* Using css grid to layout images responsively */
@@ -151,10 +145,13 @@ main {
 table,
 th,
 td {
-  border: 1px solid black;
   border-collapse: collapse;
   margin: 0;
   padding: 0;
+}
+
+td {
+  width: 50%;
 }
 
 ul,
@@ -204,15 +201,15 @@ footer {
   color: white;
   margin: 0;
   bottom: 0;
-  height: 60px;
+  height: 40px;
   padding: 10px;
-  text-align: center;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  letter-spacing: 1px;
 }
 
-/* Styling images in footer */
-footer img {
-  position: relative;
-  height: 40px;
-  margin-left: 2.5px;
-  margin-right: 2.5px;
+footer a:hover {
+  color:#ff198c;
 }
