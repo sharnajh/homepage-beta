@@ -5,42 +5,70 @@
 <!--Best viewed in Google Chrome-->
 <html>
   <head>
+    <!-- Sets character code set for page -->
     <meta charset="utf-8" />
-    <title>Sharna's Homepage</title>
+    <!-- Sets title for webpage, which appears in search results, tab name, and window name -->
+    <title>Sharna Hossain | CSC 101</title>
+    <!-- External link to css stylesheet -->
     <link rel="stylesheet" href="main.css" />
   </head>
 
   <body>
+    <!-- Header that contain's website title and nav-->
     <header>
       <h1 class="title">Sharna Hossain | CSC 101</h1>
-      <ul class="nav">
-        <li><a href="index.html">Home</a></li>
-      </ul>
+      <nav>
+        <!-- Hyperlink to refresh the page, could have used "/" as href instead -->
+        <a href="index.html">Home</a>
+      </nav>
     </header>
 
+    <!-- Main div contain's website's main information -->
     <main>
       <div class="grid">
         <!-- Images -->
-        <img
-          class="grid-image"
-          src="https://images.unsplash.com/photo-1527031169734-cc605463fe17?ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80"
-        />
-        <img
-          class="grid-image"
-          src="https://images.unsplash.com/photo-1539035104074-dee66086b5e3?ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80"
-        />
-        <img
-          class="grid-image"
-          src="https://images.unsplash.com/photo-1538370965046-79c0d6907d47?ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80"
-        />
+        <div class="item">
+          <!-- Hidden until the parent element is hovered on -->
+          <div class="description">
+            Colored Smoke
+          </div>
+          <!-- A filter effect is added when hovered on -->
+          <img
+            class="grid-image"
+            src="https://images.unsplash.com/photo-1527031169734-cc605463fe17?ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80"
+          />
+        </div>
+
+        <div class="item">
+          <div class="description">Sky view</div>
+          <img
+            class="grid-image"
+            src="https://images.unsplash.com/photo-1539035104074-dee66086b5e3?ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80"
+          />
+        </div>
+
+        <div class="item">
+          <div class="description">Galaxy</div>
+          <img
+            class="grid-image"
+            src="https://images.unsplash.com/photo-1538370965046-79c0d6907d47?ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80"
+          />
+        </div>
+
+        <div class="item">
+          <div class="description">Umbrellas</div>
         <img
           class="grid-image"
           src="https://images.unsplash.com/photo-1534759926787-89fa60f35848?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80"
         />
+        </div>
+        <div class="item">
+          <div class="description">Glitter hands</div>
         <img
           class="grid-image"
           src="https://images.unsplash.com/photo-1508264443919-15a31e1d9c1a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1418&q=80"
         />
+        </div>
       </div>
 
       <div class="wrapper">
