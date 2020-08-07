@@ -1,85 +1,94 @@
 <!DOCTYPE html>
-<!--Assignment 2 for CSC 101-->
-<!--Best viewed in Google Chrome and Safari-->
+<!-- CSC101 -->
+<!-- Sharna Hossain -->
+<!--Assignment 14-->
+<!--Best viewed in Google Chrome-->
 <html>
   <head>
     <meta charset="utf-8" />
-    <title>Sharna J Hossain's Profile & Gallery</title>
-    <link rel="stylesheet" href="assets/main.css" />
+    <title>Sharna's Homepage</title>
+    <link rel="stylesheet" href="main.css" />
   </head>
 
   <body>
     <header>
-      <h1 class="title">Sharna J Hossain's Profile</h1>
+      <h1 class="title">Sharna Hossain | CSC 101</h1>
       <ul class="nav">
         <li><a href="index.html">Home</a></li>
-        <li><a href="index.html">Profile</a></li>
-        <li><a href="pages/gallery.html">Gallery</a></li>
       </ul>
     </header>
 
     <main>
-      <img class="portrait" src="assets/my-picture.JPG" alt="me" />
+      <div class="grid">
+        <!-- Images -->
+        <img
+          class="grid-image"
+          src="https://images.unsplash.com/photo-1527031169734-cc605463fe17?ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80"
+        />
+        <img
+          class="grid-image"
+          src="https://images.unsplash.com/photo-1539035104074-dee66086b5e3?ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80"
+        />
+        <img
+          class="grid-image"
+          src="https://images.unsplash.com/photo-1538370965046-79c0d6907d47?ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80"
+        />
+        <img
+          class="grid-image"
+          src="https://images.unsplash.com/photo-1534759926787-89fa60f35848?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80"
+        />
+        <img
+          class="grid-image"
+          src="https://images.unsplash.com/photo-1508264443919-15a31e1d9c1a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1418&q=80"
+        />
+      </div>
 
-      <div class="Bio">
-        <h2>Who am I?</h2>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
-          auctor metus velit, ut porta dolor vestibulum eget. Aliquam non dictum
-          massa. Pellentesque porttitor mattis ex, et tincidunt ex ornare ut.
-          Pellentesque urna nibh, lobortis vel nunc at, lobortis pulvinar
-          tellus. Mauris aliquam quam eu aliquet auctor. Duis risus libero,
-          lobortis ac efficitur eu, rutrum in odio. Cras semper, quam vitae
-          cursus maximus, leo nisi sodales nisi, ut porttitor turpis sapien eget
-          magna. Sed blandit, lectus ac condimentum fermentum, lorem neque
-          fermentum neque, ac porta est justo ut nunc. Nunc sed augue aliquet
-          metus cursus convallis vitae vel velit. Nunc quis tincidunt arcu.
-          Integer et semper nulla. Donec semper urna quis purus venenatis, vel
-          euismod tortor sollicitudin. Etiam vitae massa sit amet tortor
-          sollicitudin rutrum ut sed nibh. Nam ut urna sed sem dapibus egestas
-          ut vel ante. Integer pulvinar tortor ut libero molestie mollis.
-        </p>
-
-        <h3>More Info</h3>
-        <ul>
-          <li>Born on June 7, 1997</li>
-          <li>Hobbies:</li>
-          <ul>
-            <li>Coding</li>
-            <li>Makeup</li>
-            <li>Graphic Design</li>
-          </ul>
-          <li>Favorite TV Shows:</li>
-          <ul>
-            <li>Game of Thrones</li>
-            <li>She's Gotta Have It</li>
-            <li>Mr Robot</li>
-          </ul>
-        </ul>
+      <div class="wrapper">
+        <!-- Table -->
+        <table id="main-table">
+          <tr class="table-header">
+            <th>Unordered List</th>
+            <th>Ordered List</th>
+          </tr>
+          <tr>
+            <td>
+              <!-- Unordered List-->
+              <ul>
+                <li>Apples</li>
+                <li>Pears</li>
+                <li>Oranges</li>
+                <li>Blueberries</li>
+                <li>Mangos</li>
+                <li>Kiwis</li>
+              </ul>
+            </td>
+            <td>
+              <!-- Ordered List -->
+              <ol>
+                <li>JavaScript</li>
+                <li>Python</li>
+                <li>C++</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>React</li>
+              </ol>
+            </td>
+          </tr>
+        </table>
       </div>
     </main>
 
     <footer>
-      <center>
-        <a href="mailto:sharnajhossain@gmail.com" target="_blank">
-          <img src="social-media-icons/mail.png" />
-        </a>
-        <a href="https://www.facebook.com/sharnajhossain" target="_blank">
-          <img src="social-media-icons/facebook.png"
-        /></a>
-
-        <a href="https://www.instagram.com/sharnajh/" target="_blank">
-          <img src="social-media-icons/instagram.png"
-        /></a>
-
-        <a href="https://www.linkedin.com/in/sharnahossain" target="_blank">
-          <img src="social-media-icons/linkedin.png"
-        /></a>
-
-        <a href="https://github.com/sharnajh" target="_blank">
-          <img src="social-media-icons/github.png"
-        /></a>
-      </center>
+      <!-- Hyperlinks -->
+      <a href="mailto:sharnajh@gmail.com" target="_blank">
+        <img src="mail.png" />
+      </a>
+      <a href="https://www.linkedin.com/in/sharnahossain" target="_blank">
+        <img src="linkedin.png"
+      /></a>
+      <a href="https://github.com/sharnajh" target="_blank">
+        <img src="github.png"
+      /></a>
     </footer>
   </body>
 </html>
