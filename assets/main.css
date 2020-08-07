@@ -34,7 +34,7 @@ header a:link, a:visited, a:active {
 }
 
 header a:hover {
-  color:green;
+  color:palevioletred;
 }
 
 header {
@@ -83,27 +83,7 @@ main {
   margin:0;
 }
 
-.bio {
-  height:60%;
-  float:right;
-  padding:10px;
-  overflow:hidden;
-}
-
-main p {
-  font-size:20px;
-  text-align: center;
-}
-
-main ul, li {
-  line-height: 30px;
-  list-style-position: inside;
-  font-size: 20px;
-  text-align:center;
-}
-
 .grid {
-  margin-left:150px;
   background-color:white;
   display: inline-grid;
   grid-template-columns: auto auto auto;
@@ -120,11 +100,17 @@ footer {
   background-color:black;
   color:white;
   margin:0;
-
+  bottom: 0;
+  position: absolute;
+  height: 40px;
+  padding: 10px 0 10px 0;
+  text-align: center;
+  overflow: hidden;
 }
 
 footer img {
-  width:40px;
-  padding:10px;
-  margin:0;
+  position: relative;
+  height: 40px;
+  margin-left: 2.5px;
+  margin-right: 2.5px;
 }
