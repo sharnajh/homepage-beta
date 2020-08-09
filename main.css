@@ -203,6 +203,7 @@ ul li:nth-child(even),
 ol li:nth-child(odd) {
   background-color: #ebebeb;
 }
+
 ul li:nth-child(even):before,
 ol li:nth-child(odd):before {
   background-color: #ebebeb;
