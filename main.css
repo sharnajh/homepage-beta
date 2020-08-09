@@ -10,7 +10,8 @@
 
 /* CSS Stylings will be applied to all elements in the body...which are all the elements! */
 body {
-  font-family: "Barlow Condensed", Futura, sans-serif;
+  font-family: "Barlow Condensed", Helvetica, sans-serif;
+  font-style: italic;
   margin: 0;
   padding: 0;
 }
