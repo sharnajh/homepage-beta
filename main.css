@@ -126,7 +126,7 @@ main {
 }
 
 .show {
-  transition: ease-in-out 0.3s;
+  transition: ease-in-out 0.5s;
   opacity: 1;
 }
 
